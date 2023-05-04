@@ -33,7 +33,7 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    width: 290px;
+    width: 300px;
     height: 550px;
     border-radius: 20px;
     overflow: hidden;
@@ -65,6 +65,19 @@ main{
 #form > p {
     font-size: 0.8em;
 }
+
+form > div.campo{
+    background-color: purple;
+    padding: 10px;
+}
+
+.campo{
+    padding-top: 10px;
+    box-sizing:content-box;
+    
+
+}
+
 
 
 
